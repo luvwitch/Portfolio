@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="navbar.css">  
 </head>
 
 
@@ -21,11 +20,11 @@
     <ul class="navbar-nav w-100 justify-content-end">
       
       <li class="nav-item">
-        <a class="nav-link active" style="color: white;" href="contact.html">Contact</a>
+        <a class="nav-link active" style="color:#c02519 ;" href="contact.html"><strong>Contact</strong></a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" style="color: white;" href="aboutme.html">About Me</a>
+        <a class="nav-link" style="color: white;" href="index.html">About Me</a>
       </li>
 
       <li class="nav-item">
@@ -34,41 +33,81 @@
     </ul>
   </div>
 </nav>
+
+<!--Contact Form Container-->
+
 <div class="container contact-form" style="text-align: center;">
 
   <h2>Contact</h2>
+
   <hr>
 
-    <!--message container-->
+<!--Contact Info/Links-->
+
+  <h4>
+    <p>Email</p>
+    <a style="color:white;" href="mailto:itsalexkelly@gmail.com"><p>itsalexkelly@gmail.com</p></a>
+  </h4>
+
+  <hr>
+
+  <h4>
+    <p>Github</p>
+    <a style="color:white;" href="https://github.com/luvwitch"><p>luvwitch</p></a>
+  </h4>
+
+  <hr>
+
+  <h4>
+    <p>Call/Text:</p> 
+    <p>716.579.3028 </p>
+  </h4>
+
+<!--Contact Form-->
 
    <div class="container contact-form" style="text-align: left;">
     
     <div class="row">
       
       <div class="col-md-12">  
+
+<!--Name Box-->
           
         <div class="form-group">
             <label>Name</label>
             <input type="text" class="form-control">
         </div>
+
+<!--Email Box-->
   
         <div class="form-group">
           <label>Email</label>
           <input type="text" class="form-control">
       </div>
-  
+
+<!--Message Box-->  
+
       <div class="form-group">
           <label>Message</label>
           <textarea class="form-control" rows="5"></textarea>
       </div>
-  
+    
+<!--Send Button-->
+
       <div class="form-group">
-         <button class="btn btn-primary btn-block" style="color:white; background-color: #c02519"><strong>Send</strong></button>
+        <button type="submit"
+          class="btn btn-lg active" 
+          role="button" aria-pressed="true"
+          style="color:white; background-color: #c02519">
+            <strong>Send</strong>
+      </button>
       </div>
-  
+   
      </div>
-  
-  </div>
+  </div> 
+</div>
+
+<!--Sticky Footer-->
 
 <div class="footer">
   <div class="container" style="color:#212529;">
@@ -76,7 +115,10 @@
   </div>
 </div> 
 
+<!--Style-->
+
   <style>
+    
     body{
         background-image: url("https://images.unsplash.com/photo-1507646871303-331b8f659227?ixlib=rb-1.2.1&w=1000&q=80");
         background-size: cover;
